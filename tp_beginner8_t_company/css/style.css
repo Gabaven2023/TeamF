@@ -125,7 +125,8 @@ header {
 
 /*ロゴ*/
 #logo img {
-	width: 300px;	/*ロゴの幅*/
+	width: 500px;	/*ロゴの幅*/
+	
 }
 
 
@@ -374,7 +375,10 @@ footer .pr {display: block;}
 /*その他
 ---------------------------------------------------------------------------*/
 .clearfix::after {content: "";display: block;clear: both;}
-.color-check, .color-check a {color: #ff0000 !important;}
+.color-check, .color-check a {
+	color: #ff0000 !important;
+	font-size: larger;
+}
 .l {text-align: left !important;}
 .c {text-align: center !important;}
 .r {text-align: right !important;}
@@ -397,3 +401,10 @@ footer .pr {display: block;}
 	.pc {display: block;}
 
 	}/*追加指定ここまで*/
+
+
+/*小川追加分*/
+
+.center{
+	text-align:center;
+}
