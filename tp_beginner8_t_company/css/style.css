@@ -530,16 +530,6 @@ footer .pr {display: block;}
 	color: inherit;
 }
 
-/*ボタン*/
-.list-flex2 .btn2 a {
-	display: block;text-decoration: none;
-	text-align: center;		/*テキストをセンタリング*/
-	background: #eee;		/*背景色*/
-	border: 1px solid #999;	/*枠線の幅、線種、色*/
-	padding: 5px 10px;		/*ボタン内の余白*/
-	margin-top: 0.5px;		/*ボタンの上に空けるスペース*/
-}
-
 	/*画面幅900px以上の追加指定*/
 	@media screen and (min-width:900px) {
 
