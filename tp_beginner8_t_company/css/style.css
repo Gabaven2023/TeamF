@@ -165,7 +165,7 @@ header {
 ---------------------------------------------------------------------------*/
 /*画像を囲むブロック*/
 .mainimg-slick {
-	margin-bottom: 80px;	/*画像の下に空けるスペース*/
+	margin-bottom: 10px;	/*画像の下に空けるスペース*/
 }
 
 /*丸いページナビボタン全体を囲むブロック*/
@@ -404,6 +404,28 @@ footer .pr {display: block;}
 
 
 /*小川追加分*/
+
+/*メインページ*/
+.slick-img{
+	margin: 0 auto;
+	width: 1280px;
+	height: 720px;
+	object-fit: cover;
+}
+
+/*広告*/
+.adbox-flex{
+	justify-content: space-between;
+	display: flex;
+}
+
+.adbox {
+	margin: 20px auto;
+	padding: 50px 150px;
+	border-radius: 10px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
 
 	/*多分ここから追加分
 	/*３列タイプのボックス（flex）
